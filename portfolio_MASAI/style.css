@@ -1,0 +1,58 @@
+
+body{
+    font-family: sans-serif;
+    max-width: 50%;
+    margin: auto;    
+    color: #333;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+.name{
+    color: grey;
+}
+.coral{
+    color: coral;
+}
+
+.hrline{
+    border: 1px solid coral;
+}
+
+.summary-design{
+    min-width: 250px;
+    font-size: 20px;
+    color: coral;
+}
+.tbl-design{
+    margin-top: 20px;
+}
+.sub-info{
+    font-size: 20px;
+}
+
+.sub-design{
+    font-weight:100;
+    margin: 5px;
+    min-width: 200px;
+    font-style: italic;
+}
+.summary-design{
+    display: block;
+}
